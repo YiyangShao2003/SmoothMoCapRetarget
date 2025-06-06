@@ -122,10 +122,14 @@ Take `g1` robot for example, put `g1_29dof.xml` under `smooth-mocap-retarget/res
 Create the directory to store the fitted shape, and run the shape fitting script to align the standard smpl model with your own robot model.
 Take `g1` robot for example
 - Create the `smooth-mocap-retarget/data/g1` directory
-- Run `smooth-mocap-retarget/scripts/g1/fit_robot_shape.py`, the fitted shape will be saved as `smooth-mocap-retarget/data/g1/fit_robot_shape_g1.pkl`
+- Run `smooth-mocap-retarget/scripts/g1/fit_robot_shape.ipynb`, the fitted shape will be saved as `smooth-mocap-retarget/data/g1/fit_robot_shape_g1.pkl`
 
 ### Retargeting based on Fitted Shape
 
 Run the motion retargeting script.
 Take `g1` robot for example
-- Run `smooth-mocap-retarget/scripts/g1_lockwaist/process_humanml3d_g1.py`, the retargeted dataset will be saved under `smooth-mocap-retarget/data/g1/`
+- Run `smooth-mocap-retarget/scripts/g1/process_humanml3d_g1.ipynb`, the retargeted dataset will be saved under `smooth-mocap-retarget/data/g1/`
+
+## Visualization
+
+Run `smooth-mocap-retarget/scripts/mujoco_visualization.py` to visualize the retargeted mocap dataset.
