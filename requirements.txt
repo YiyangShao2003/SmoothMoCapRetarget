@@ -1,0 +1,15 @@
+torch
+numpy==1.23.0
+scipy
+pandas
+ipdb
+joblib>=1.2.0
+tqdm 
+ipykernel
+easydict
+chumpy
+matplotlib
+mujoco>=3.0.0
+-e poselib
+-e phc
+git+https://github.com/ZhengyiLuo/smplx.git@master
